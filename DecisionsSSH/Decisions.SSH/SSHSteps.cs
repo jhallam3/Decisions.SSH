@@ -26,11 +26,7 @@ namespace Decisions.SSH
         }
 
 
-        public ConnectionInfo CreateConnectionInfo(string host, string username, string password)
-        {
-            return new ConnectionInfo(host, username,
-                                              new PasswordAuthenticationMethod(username, password));
-        }
+     
        
 
 
